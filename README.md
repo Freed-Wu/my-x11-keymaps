@@ -24,6 +24,6 @@ sudo chgrp $USERNAME .
 sudo mv pc pc.bak
 sudo mv altwin altwin.bak
 git clone git@github.com:Freed-Wu/my-keymaps.git
-mv my-keymaps/* . && rm my-keymaps
+mv my-keymaps/* my-keymaps/.* . && rm my-keymaps
 ```
 
