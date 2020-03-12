@@ -21,6 +21,8 @@ See [dual-key-remap](https://github.com/ililim/dual-key-remap) and
 cd /usr/share/X11/xkb/symbols
 sudo chown $USERNAME .
 sudo chgrp $USERNAME .
+sudo mv pc pc.bak
+sudo mv altwin altwin.bak
 git clone git@github.com:Freed-Wu/my-keymaps.git
 mv my-keymaps/* . && rm my-keymaps
 ```
