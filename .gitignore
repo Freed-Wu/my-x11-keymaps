@@ -1,7 +1,7 @@
-*
-!.gitignore
-!LICENSE
-!README.md
-!pc
-!altwin
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/pc
+!/altwin
 
